@@ -1,0 +1,3 @@
+include 'cuit-auction-core'
+include 'cuit-auction-browser'
+include 'cuit-auction-app'

@@ -1,0 +1,17 @@
+dependencies{
+    compile group: 'org.springframework.cloud', name: 'spring-cloud-starter-oauth2', version: '1.2.2.RELEASE'
+    compile group: 'org.springframework.boot', name: 'spring-boot-starter-data-redis', version: '2.0.0.RELEASE'
+    compile group: 'org.springframework.boot', name: 'spring-boot-starter-jdbc', version: '2.0.0.RELEASE'
+    compile 'org.springframework.boot:spring-boot-starter-jdbc'
+    compile 'org.springframework.social:spring-social-web:1.1.6.RELEASE'
+    compile 'org.springframework.social:spring-social-core:1.1.6.RELEASE'
+    compile 'org.springframework.social:spring-social-config:1.1.6.RELEASE'
+    compile 'org.springframework.social:spring-social-security:1.1.6.RELEASE'
+
+    compile group: 'org.apache.commons', name: 'commons-lang3', version: '3.7'
+    compile group: 'org.apache.commons', name: 'commons-collections4', version: '4.1'
+    compile group: 'commons-beanutils', name: 'commons-beanutils', version: '1.9.3'
+    compile group: 'org.springframework.boot', name: 'spring-boot-configuration-processor', version: '2.0.0.RELEASE'
+
+    compile ('mysql:mysql-connector-java:6.0.6')
+}
